@@ -11,7 +11,7 @@ Selamat datang di katalog otomatis kami. Klik produk untuk detail dan link Shope
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 10px 0;">
 
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <div style="border: 1px solid #eee; border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: 0.3s;">
     
     <div style="width: 100%; height: 200px; overflow: hidden;">

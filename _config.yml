@@ -1,0 +1,18 @@
+# ===============================
+# PENGATURAN RUKO SHADOW ARMY
+# ===============================
+
+title: Katalog Panci Sultan
+description: I build what you don't notice.
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Ini biar website lu bisa bikin halaman 1, 2, 3...
+plugins:
+  - jekyll-paginate
+
+paginate: 12
+paginate_path: "/page:num/"
+
+# Biar gambar dari Cloudinary aman (Gak ke-blokir)
+encoding: "utf-8"
+markdown: kramdown
